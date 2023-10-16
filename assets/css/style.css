@@ -550,6 +550,7 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
   text-align: justify;
+  white-space: no-wrap;
 }
 
 
