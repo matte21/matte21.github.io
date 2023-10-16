@@ -107,7 +107,9 @@
 
 }
 
-
+a:active {
+  color: var(--orange-yellow-crayola);
+}
 
 
 
