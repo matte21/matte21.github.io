@@ -210,7 +210,15 @@
                 <h4 class="h4 service-item-title">Disaggregated Resources and Cloud Control Planes</h4>
 
                 <p class="service-item-text">
-                  I'm working on this together with <a href="https://www.cc.gatech.edu/home/ada/">Prof. Ada Gavrilovska</a>.
+                  A current trend in cloud data centers is disaggregating resources such as memory and storage.
+                  Oversimplifying, "disaggregating" means placing the resources in shared pools from which they can be
+                  allocated to any physical server, in contrast to the traditional approach where each physical server
+                  has a fixed amount of dedicated memory and storage. The benefit is better utilization of resources
+                  (e.g. the case where a server has unused RAM that can't be given to other servers in needs disappears),
+                  which translate to lower costs. But thisrecent paradigm shift also requires rethinking all cloud
+                  orchestration. For example: how should cluster scheduling (i.e. assigning jobs to servers) in the
+                  light of disaggregation? This is one example of the problems I'm working on in this space,.
+                  together with <a href="https://www.cc.gatech.edu/home/ada/">Prof. Ada Gavrilovska</a>.
                 </p>
               </div>
 
